@@ -43,3 +43,14 @@ npm install
 npx ts-node src/index.ts <filepath> <language>
 
 Example: npx ts-node src/index.ts test/typescript typescript
+
+```
+
+### **3. Run the test cases **
+
+```bash
+npx jest
+```
+
+
+

@@ -79,7 +79,7 @@ export class LineParser {
 
       if (stat.isDirectory()) {
         this.analyzeDirectory(filePath,language); 
-      } else if (filePath.includes(".")) {
+      } else if (filePath?.includes(".")) {
         this.resetCounters();
         this.analyzeFile(filePath, language);
       }
